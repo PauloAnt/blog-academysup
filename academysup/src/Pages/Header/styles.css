@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+   
+}
+header .div-right-header a{
+    font-size: 22px;
+}
+
+.header-container{
+    list-style: none;
+    display: flex;
+}
+.div-header{
+    display: flex;
+}
+.header-itens{
+    margin: 20px 50px;
+}
+
+.div-right-header{
+    margin-right: auto;
+}
+
+.btn-header{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+
+    color: var(--color-font);
+}
+
+.btn-header:hover{
+    background-color: var(--background-opacity);
+    transition: 0.2s;
+}
+
+.btn-header-menu{
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+
+    color: var(--color-font);
+}
+.menu-logout{
+    display: none;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--background-opacity);
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    border-radius: 0 0 10px 10px;
+}
+.btn-header-logout{
+    border: none;
+    background-color: transparent;
+    color: var(--color-font);
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.btn-header-logout:hover{
+    color: gray;
+}
+
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.menu:hover .menu-logout{
+    display: block;
+}
+
+.margin-left-right-20px{
+    margin: 0 20px;
+}

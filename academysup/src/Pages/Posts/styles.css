@@ -1,0 +1,145 @@
+hr{
+    border-color: var(--background);
+    border-style: solid;
+}
+
+.comment-text{
+    width: 99%;
+    height: 100px;
+    border: none;
+    resize: none;
+    font-family: Roboto;
+
+    background-color: var(--input-color);;
+
+    margin: 5px 0 0 0;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.btn-send{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+
+.btn-send:hover{
+    color: var(--background-opacity);
+}
+
+.btn-see-comment{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-see-comment:hover{
+    color: var(--background-opacity);
+}
+
+.answer-text{
+    font-size: 13px;
+}
+.text-post-princ{
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Posts */
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--background);
+}
+
+.post{
+    background-color: var(--color-font);
+    margin: 20px 0; 
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; 
+    max-width: 600px;
+    text-align: left;
+}
+
+.title-post{
+    text-align: center;
+}
+
+.new-post{
+    width: 80%;
+    height: 130px;
+    border: none;
+    resize: none;
+
+    margin: 5px 0 0 0;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: Roboto;
+
+    background-color: var(--input-color);
+}
+
+.container-send-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-send-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-font);
+    border-radius: 5px;
+    
+    width: 45%;
+    height: 60vh;
+}
+
+.text-princ-send-post{
+    color: var(--background);
+    margin: 10px;
+}
+
+.btn-send-post{
+    border: none;
+    margin: 20px 0 0 0;
+    padding: 17px 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--background);;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-send-post:hover{
+    color: gray;
+    transition: 0.5s;
+}
+
+.title-send-post{
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+/* Position text */
+
+.text-align-left{
+    text-align: right;
+}
+
+.text-align-center{
+    text-align: center;
+}

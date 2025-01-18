@@ -1,0 +1,13 @@
+.box-about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.box-about ul{
+    list-style: none;
+}
+.box-about p{
+    margin: 20px;
+}

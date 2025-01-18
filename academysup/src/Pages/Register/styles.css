@@ -1,0 +1,47 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.send-register{
+    margin: 20px 0 0 0;
+    
+    background-color: rgb(255, 255, 255);
+    color: var(--background);
+
+    padding: 10px 20px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 10px;
+
+    transition: 0.5s;
+
+    cursor: pointer;
+}
+
+.send-register:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+input{
+    margin: 10px 0; 
+    width: 330px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+

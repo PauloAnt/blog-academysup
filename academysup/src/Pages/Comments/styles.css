@@ -1,0 +1,29 @@
+.list-comment{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.princ-text-comment{
+    text-align: center;
+    margin: 20px;
+}
+
+.item-comment{
+    margin: 10px;
+    background-color: var(--color-font);
+    color: var(--background);
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name-comment{
+    font-size: 22px;
+}
+
+.desc-comment{
+    font-size: 15px;
+}
