@@ -1,0 +1,19 @@
+# Ignorar diretórios e arquivos criados pelo Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de configuração do ambiente local
+*.iml
+.idea/
+*.log
+*.class
+*.war
+*.ear
+*.jar
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de versionamento externo
+node_modules/
